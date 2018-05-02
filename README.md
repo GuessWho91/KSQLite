@@ -7,7 +7,7 @@ This is a kotlin library wich will make your work with SQLite database much more
 ### Installing
 
 ### Using
-
+ 
 1) Create a class where you will declare your database structure with `KDBSet` superclass.
 There you need to create data classes with `DBObject` superclass and `@SVN` annotation similar to fields name.
 
