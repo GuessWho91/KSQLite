@@ -11,7 +11,6 @@ import java.lang.reflect.Constructor
 import java.util.*
 import kotlin.collections.ArrayList
 
-
 /**
  * Methods to working with database
  * Created by Leo on 03.07.17.

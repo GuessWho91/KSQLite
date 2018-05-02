@@ -1,1 +1,1 @@
-include ':app', ':ksqlite'
+include ':demo', ':ksqlite'

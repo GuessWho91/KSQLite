@@ -1,6 +1,6 @@
 # KSQLite
 
-This is a kotlin library wich will make your work with SQLite database much more easier in more objective way.
+This is a kotlin library which will make your work with SQLite database much more easier in more objective way.
 
 ## Getting Started
 
@@ -109,7 +109,7 @@ based on previos class
 }
 ```
 
-3) Thats all! Now you can insert/update/get information from SQLite database
+3) That's all! Now you can insert/update/get information from SQLite database
 
 - To <b>insert</b> data you just need to create class instance and then call `insertInDB` method
 
@@ -119,7 +119,8 @@ mdbSet.client("uuid2", "Apple inc").insertInDB(db)
 mdbSet.client_properties("uuid1", "some information").insertInDBWithCheck(db, arrayOf("client", "info"))
 ```
 
-<b>Note</b>: You need to create `uuid` field in your table if you want to have uniqie fields. Data with the similar uuid will be updated. If your table doesn't have uuid, but you still need unique rows call `insertInDBWithCheck` where in second params you need to send array of field name which values association you want to be unique.
+<b>Note</b>: You need to create `uuid` field in your table if you want to have unique fields. Data with the similar uuid will be updated. 
+If your table doesn't have uuid, but you still need unique rows call `insertInDBWithCheck` where in second params you need to send array of field name which values association you want to be unique.
 
 - To <b>get</b> data use methods of `KDBRequests` class
 
