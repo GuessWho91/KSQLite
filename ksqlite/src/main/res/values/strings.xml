@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">KSQLite</string>
+    <public name="mylib_app_name" type="string">KSQLite</public>
+    <public name="mylib_public_string" type="string">KSQLite</public>
 </resources>
